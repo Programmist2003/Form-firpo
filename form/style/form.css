@@ -1,0 +1,123 @@
+body{
+    height: 2000px;
+    background-color: rgb(0, 67, 164);
+}
+/* шапка */
+header{
+    height: 200px;
+    border-radius: 11px;
+    background-color: #003b94;
+    background-position: center top;
+    border-color: transparent;
+    border-style: solid;
+}
+.lk{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.t{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+.t2{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+/* форма */
+.text_1{
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+.text_2{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   text-align: center;
+    margin-bottom: 50px;
+}
+.text_3{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'FuturaPT',Arial,sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.mb-3{
+    float: left;   color: rgb(255, 255, 255);
+    font-family: 'FuturaPT',Arial,sans-serif;
+    padding-bottom: 18px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.form-control{
+    height: 75px;
+    margin-bottom: 30px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #003b94;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+.form-select{
+    height: 55px;
+    margin-bottom: 30px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #003b94;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form-text{
+    width: 700px;
+    height: 55px;
+    margin-bottom: 30px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #003b94;
+    border-radius: 11px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
